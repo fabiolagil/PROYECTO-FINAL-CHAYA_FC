@@ -1,0 +1,38 @@
+#pag-jugadorxs {
+    .jugadorxs {
+
+        ul {
+            display: flex;
+            list-style: none;
+            margin: 0px;
+            padding: 10px;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        ul {
+            li {
+                a {
+                    color: black;
+                    text-decoration: none;
+
+                    &:hover {
+                        color: hotpink;
+                    }
+                }
+            }
+        }
+    }
+
+    .division-jugadorxs {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: nowrap;
+
+        .card{
+            margin: 10px;
+            width: 300px; 
+        }
+    }
+}

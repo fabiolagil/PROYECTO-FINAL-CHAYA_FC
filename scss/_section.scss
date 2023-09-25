@@ -1,3 +1,15 @@
 .articulos-centro{
+    margin: 10px 100px;
     display: flex;
+    justify-content: space-around;
+    .card{
+        width: 400px;
+        background-color: #252422;
+        .card-title{
+            color: white;
+        }
+        .card-text{
+            color: white;
+        }
+    }
 }

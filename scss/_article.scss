@@ -1,0 +1,41 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "art-1 art-1 art-1 art-2 art-2 art-2"
+        "art-3 art-3 art-4 art-4 art-5 art-5";
+    justify-items: center
+
+}
+
+.art-1 {
+    grid-area: art-1;
+}
+
+.art-2 {
+    grid-area: art-2;
+}
+
+.art-3 {
+    grid-area: art-3;
+}
+
+.art-4 {
+    grid-area: art-4;
+}
+
+.art-5 {
+    grid-area: art-5;
+}
+
+.container{
+    .card{
+        background-color:  #403d39;
+        .card-text{
+            color: white;
+        }
+    }
+}

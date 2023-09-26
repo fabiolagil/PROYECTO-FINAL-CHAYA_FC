@@ -1,0 +1,15 @@
+#pag-productos {
+    .carousel-item {
+        img {
+            width: 60%;
+            margin: auto;
+            height: 500px;
+        }
+    }
+    .lista-productos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 20px;
+    }
+}

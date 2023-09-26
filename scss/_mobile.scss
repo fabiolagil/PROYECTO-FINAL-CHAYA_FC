@@ -1,0 +1,38 @@
+@media only screen and (max-width: 500px) {
+    main {
+        margin: 0px;
+
+        .carouselExample {
+            img {
+                width: 100%;
+                padding: 0;
+            }
+
+        }
+    }
+
+    .articulos-centro {
+        margin: 10px 10px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .sponsors {
+        .container-sponsors1 {
+            .row {
+                img {
+                    width: 35px;
+                }
+            }
+        }
+    }
+    footer{
+        justify-content: center;
+        .footer-links{
+            ul{
+                padding: 0;
+                margin: auto;
+            }
+        }
+      }
+}

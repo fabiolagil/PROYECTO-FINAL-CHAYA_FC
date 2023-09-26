@@ -12096,5 +12096,17 @@ footer .footer-links ul li .footer_links ul li a:hover {
 }
 #pag-jugadorxs .division-jugadorxs .card {
   margin: 10px;
-  width: 200px;
+  width: 250px;
+}
+
+#pag-productos .carousel-item img {
+  width: 60%;
+  margin: auto;
+  height: 500px;
+}
+#pag-productos .lista-productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 20px;
 }/*# sourceMappingURL=main.css.map */

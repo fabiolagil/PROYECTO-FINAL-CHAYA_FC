@@ -9489,4 +9489,33 @@ footer {
   flex-wrap: nowrap; }
   #pag-jugadorxs .division-jugadorxs .card {
     margin: 10px;
-    width: 200px; }
+    width: 250px; }
+
+#pag-productos .carousel-item img {
+  width: 60%;
+  margin: auto;
+  height: 500px; }
+
+#pag-productos .lista-productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 20px; }
+
+@media only screen and (max-width: 500px) {
+  main {
+    margin: 0px; }
+    main .carouselExample img {
+      width: 100%;
+      padding: 0; }
+  .articulos-centro {
+    margin: 10px 10px;
+    display: flex;
+    justify-content: space-around; }
+  .sponsors .container-sponsors1 .row img {
+    width: 35px; }
+  footer {
+    justify-content: center; }
+    footer .footer-links ul {
+      padding: 0;
+      margin: auto; } }

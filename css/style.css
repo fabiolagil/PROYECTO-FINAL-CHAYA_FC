@@ -9297,6 +9297,8 @@ nav {
     color: white; }
   nav .navbar-brand {
     color: white; }
+  nav i {
+    margin: 5px; }
 
 h1, .h1 {
   background-color: #252422;
@@ -9328,7 +9330,8 @@ main {
   grid-template-rows: 1fr 1fr;
   gap: 20px 20px;
   grid-auto-flow: row;
-  grid-template-areas: "art-1 art-1 art-1 art-2 art-2 art-2" "art-3 art-3 art-4 art-4 art-5 art-5";
+  grid-template-areas: "art-1 art-1 art-1 art-2 art-2 art-2"
+ "art-3 art-3 art-4 art-4 art-5 art-5";
   justify-items: center; }
 
 .art-1 {
@@ -9486,4 +9489,4 @@ footer {
   flex-wrap: nowrap; }
   #pag-jugadorxs .division-jugadorxs .card {
     margin: 10px;
-    width: 300px; }
+    width: 200px; }

@@ -9330,8 +9330,7 @@ main {
   grid-template-rows: 1fr 1fr;
   gap: 20px 20px;
   grid-auto-flow: row;
-  grid-template-areas: "art-1 art-1 art-1 art-2 art-2 art-2"
- "art-3 art-3 art-4 art-4 art-5 art-5";
+  grid-template-areas: "art-1 art-1 art-1 art-2 art-2 art-2" "art-3 art-3 art-4 art-4 art-5 art-5";
   justify-items: center; }
 
 .art-1 {
@@ -9381,8 +9380,6 @@ footer {
         footer .footer-izq ul li a {
           text-decoration: none;
           color: black; }
-        footer .footer-izq ul li .footer-izq ul li a:hover {
-          color: #c20114; }
   footer .footer-links ul {
     display: flex; }
     footer .footer-links ul li {
@@ -9435,6 +9432,13 @@ footer {
 
 #pag-postales .seccion-postales h3, #pag-postales .seccion-postales .h3 {
   text-align: center; }
+
+#pag-postales .seccion-postales .galeria {
+  display: flex;
+  justify-content: space-evenly; }
+  #pag-postales .seccion-postales .galeria img {
+    width: 300px;
+    margin: 10px; }
 
 .titulo-sin-margin {
   margin: 0px; }
@@ -9518,4 +9522,24 @@ footer {
     justify-content: center; }
     footer .footer-links ul {
       padding: 0;
-      margin: auto; } }
+      margin: auto; }
+  #pag-jugadorxs main h2, #pag-jugadorxs main .h2 {
+    margin: 10px 10px;
+    text-align: center; }
+  #pag-jugadorxs main .division-jugadorxs {
+    display: flex;
+    flex-direction: column; }
+  #pag-productos .carousel-item img {
+    width: 100%;
+    height: 90%; }
+  #pag-productos .lista-productos .card {
+    margin: 10px 0px; }
+  #pag-postales #carouselExample img {
+    width: 100%;
+    margin-bottom: 30px; }
+  #pag-postales .galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  #pag-posiciones .zonas .vs {
+    width: 300px; } }

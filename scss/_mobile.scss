@@ -26,13 +26,69 @@
             }
         }
     }
-    footer{
+
+    footer {
         justify-content: center;
-        .footer-links{
-            ul{
+
+        .footer-links {
+            ul {
                 padding: 0;
                 margin: auto;
             }
         }
-      }
+    }
+
+    #pag-jugadorxs {
+        main {
+            h2 {
+                margin: 10px 10px;
+                text-align: center;
+            }
+
+            .division-jugadorxs {
+                display: flex;
+                flex-direction: column;
+
+            }
+        }
+    }
+
+    #pag-productos {
+        .carousel-item {
+            img {
+                width: 100%;
+                height: 90%;
+            }
+        }
+
+        .lista-productos {
+            .card {
+                margin: 10px 0px;
+            }
+        }
+    }
+
+    #pag-postales {
+        #carouselExample {
+            img {
+                width: 100%;
+                margin-bottom: 30px;
+            }
+        }
+
+        .galeria {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    #pag-posiciones {
+        .zonas {
+            .vs {
+                width: $tamaño1;
+
+            }
+        }
+    }
 }

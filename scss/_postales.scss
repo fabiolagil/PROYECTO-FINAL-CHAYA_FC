@@ -22,6 +22,7 @@
                 }
             }
         }
+
     }
 
     h2 {
@@ -44,6 +45,16 @@
     .seccion-postales {
         h3 {
             text-align: center;
+        }
+
+        .galeria {
+            display: flex;
+            justify-content: space-evenly;
+            img {
+                width: $tamaño1;
+                margin: 10px;
+            }
+
         }
     }
 }

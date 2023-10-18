@@ -1,0 +1,25 @@
+#pag-horarios {
+    main {
+        .horarios {
+            .partidos {
+                display: flex;
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+                align-items: center;
+                margin: 30px;
+
+                img {
+                    width: $tamaño1;
+                }
+
+                h5 {
+                    display: block;
+                }
+            }
+        }
+
+        iframe {
+            width: 100%;
+        }
+    }
+}

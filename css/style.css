@@ -9542,4 +9542,34 @@ footer {
     flex-direction: column;
     align-items: center; }
   #pag-posiciones .zonas .vs {
-    width: 300px; } }
+    width: 300px; }
+  #pag-horarios h1, #pag-horarios .h1 {
+    margin: 0; }
+  #pag-horarios main .horarios h2, #pag-horarios main .horarios .h2 {
+    background-color: #403d39;
+    color: white; }
+  #pag-horarios main .horarios .partidos {
+    flex-direction: column; } }
+
+#pag-horarios main .horarios .partidos {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 30px; }
+  #pag-horarios main .horarios .partidos img {
+    width: 300px; }
+  #pag-horarios main .horarios .partidos h5, #pag-horarios main .horarios .partidos .h5 {
+    display: block; }
+
+#pag-horarios main iframe {
+  width: 100%; }
+
+#pag-busc-jugadorxs main .caja-form {
+  margin-top: 50px; }
+  #pag-busc-jugadorxs main .caja-form h2, #pag-busc-jugadorxs main .caja-form .h2 {
+    text-align: center; }
+  #pag-busc-jugadorxs main .caja-form .formulario {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }

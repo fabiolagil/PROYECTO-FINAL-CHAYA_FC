@@ -91,4 +91,20 @@
             }
         }
     }
+    #pag-horarios{
+        h1{
+            margin: 0;
+        }
+        main{
+            .horarios{
+h2{
+    background-color: #403d39 ;
+    color: white;
+}
+            .partidos{
+                flex-direction: column;
+            }
+        }
+        }
+    }
 }

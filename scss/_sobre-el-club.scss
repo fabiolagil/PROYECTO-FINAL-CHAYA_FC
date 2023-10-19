@@ -1,31 +1,57 @@
-
-#pag-sobre-el-club{
+#pag-sobre-el-club {
     display: flex;
-    main{
-        .cuadro-sobre-el-club {  display: grid;
+
+    main {
+        .cuadro-sobre-el-club {
+            display: grid;
             grid-template-columns: 1fr 1.1fr 1fr;
             grid-template-rows: 1fr 1fr;
             gap: 10px 10px;
             grid-auto-flow: row;
+            border: 5px #252422 solid;
+
             grid-template-areas:
-              "a b c"
-              "d e f";
-          }
-          
-          .a { grid-area: a; }
-          
-          .b { grid-area: b; }
-          
-          .c { grid-area: c; }
-          
-          .d { grid-area: d; }
-          
-          .e { grid-area: e; }
-          
-          .f { grid-area: f; }
-          
+                "a b c"
+                "d e f";
+        }
+
+        .a {
+            grid-area: a;
+        }
+
+        .b {
+            grid-area: b;
+        }
+
+        .c {
+            grid-area: c;
+        }
+
+        .d {
+            grid-area: d;
+        }
+
+        .e {
+            grid-area: e;
+        }
+
+        .f {
+            grid-area: f;
+        }
+
+        .texto-sobre-el-club {
+            p {
+                margin: 30px 0px;
+                background-color: #403d39;
+                color: white;
+                font-size: larger;
+            }
+
+        }
+
     }
-    aside{
+
+    aside {
         margin: 10px;
     }
 }

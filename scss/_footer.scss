@@ -23,15 +23,20 @@ footer {
 
             li {
                 list-style: none;
-                background-color: darkgrey;
-                margin: 5px;
-                padding: 5px;
-                border-radius: 5px;
+                margin: 6px;
 
                 a {
                     text-decoration: none;
                     color: black;
+
                 }
+
+                a:hover {
+                    background-color: #252422;
+                    padding: 5px;
+                    border-radius: 5px;
+                }
+
             }
 
         }
@@ -48,13 +53,13 @@ footer {
 
                 a {
                     text-decoration: none;
-                    color: black;
+                    color: white;
                     text-align: center;
 
                 }
 
-                .footer_links ul li a:hover {
-                    color: #c20114;
+                a:hover {
+                    color: black;
                 }
             }
 

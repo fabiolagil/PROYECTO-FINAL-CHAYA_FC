@@ -1,17 +1,21 @@
 .sponsors {
     background: #252422;
-    border: 20px #252422 solid;
+    display: flex;
+    justify-content: space-around;
 
-    .sponsors-img {
-        display: flex;
+    .sponsors_img {
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
         margin: 20px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            transition: 0.5s;
+            object-fit: cover;
+        }
+        img:hover{
+            scale: 1.2;}
+        }
     }
-
-    .container-sponsors1 {
-        display: flex;
-        margin: auto;
-        justify-content: space-around;
-    }
-
-}
-

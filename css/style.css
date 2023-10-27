@@ -9579,7 +9579,10 @@ footer {
   #pag-busc-jugadorxs main .caja-form .formulario {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    margin: 10px; }
+    #pag-busc-jugadorxs main .caja-form .formulario input {
+      margin: 10px; }
 
 #pag-sobre-el-club {
   display: flex; }

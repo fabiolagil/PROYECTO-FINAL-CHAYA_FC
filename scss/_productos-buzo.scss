@@ -1,0 +1,36 @@
+#pag-productos__buzo {
+    section {
+        display: flex;
+        margin: 20px;
+
+        aside {
+            h1 {
+                background: none;
+                color: #000;
+            }
+
+            form {
+                input {
+                    margin: 2px;
+                }
+            }
+
+            nav {
+                ul {
+                    display: flex;
+                    margin: 3px;
+                    padding: 0;
+
+                    li {
+                        list-style: none;
+
+                        a {
+                            text-decoration: none;
+                            margin-right: 2px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

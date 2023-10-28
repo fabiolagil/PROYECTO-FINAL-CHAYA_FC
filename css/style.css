@@ -9291,13 +9291,13 @@ textarea.form-control-lg {
 .logo-inicio {
   width: 100px; }
 
-nav {
+header nav {
   background-color: #403d39; }
-  nav .nav-link {
+  header nav .nav-link {
     color: white; }
-  nav .navbar-brand {
+  header nav .navbar-brand {
     color: white; }
-  nav i {
+  header nav i {
     margin: 5px; }
 
 h1, .h1 {
@@ -9628,3 +9628,21 @@ footer {
     font-size: larger; }
   #pag-sobre-el-club aside {
     margin: 10px; }
+
+#pag-productos__buzo section {
+  display: flex;
+  margin: 20px; }
+  #pag-productos__buzo section aside h1, #pag-productos__buzo section aside .h1 {
+    background: none;
+    color: #000; }
+  #pag-productos__buzo section aside form input {
+    margin: 2px; }
+  #pag-productos__buzo section aside nav ul {
+    display: flex;
+    margin: 3px;
+    padding: 0; }
+    #pag-productos__buzo section aside nav ul li {
+      list-style: none; }
+      #pag-productos__buzo section aside nav ul li a {
+        text-decoration: none;
+        margin-right: 2px; }

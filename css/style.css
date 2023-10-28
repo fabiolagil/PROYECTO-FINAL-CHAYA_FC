@@ -9301,7 +9301,7 @@ nav {
     margin: 5px; }
 
 h1, .h1 {
-  background-color: #252422;
+  background-color: black;
   color: white;
   padding-left: 10px; }
 
@@ -9324,34 +9324,56 @@ main {
     .articulos-centro .card .card-text {
       color: white; }
 
-.container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 20px 20px;
-  grid-auto-flow: row;
-  grid-template-areas: "art-1 art-1 art-1 art-2 art-2 art-2" "art-3 art-3 art-4 art-4 art-5 art-5";
-  justify-items: center; }
-
-.art-1 {
-  grid-area: art-1; }
-
-.art-2 {
-  grid-area: art-2; }
-
-.art-3 {
-  grid-area: art-3; }
-
-.art-4 {
-  grid-area: art-4; }
-
-.art-5 {
-  grid-area: art-5; }
-
-.container .card {
-  background-color: #403d39; }
-  .container .card .card-text {
-    color: white; }
+article {
+  display: flex;
+  justify-content: space-evenly; }
+  article .contenedor {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; }
+    article .contenedor figure {
+      position: relative;
+      height: 250px;
+      width: 300px;
+      overflow: hidden;
+      border-radius: 6px; }
+      article .contenedor figure img {
+        width: 100%;
+        width: 100%;
+        transition: all 500ms ease-out; }
+      article .contenedor figure .capa {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        background-color: rgba(21, 35, 38, 0.701);
+        height: 100%;
+        transition: all 500ms ease-out;
+        opacity: 0;
+        visibility: hidden;
+        text-align: center; }
+        article .contenedor figure .capa h3, article .contenedor figure .capa .h3 {
+          color: white;
+          font-weight: 400;
+          margin-bottom: 120px;
+          transition: all 500ms ease-out;
+          margin-top: 30px; }
+        article .contenedor figure .capa p {
+          color: #fff;
+          font-size: 15px;
+          line-height: 1.5;
+          width: 100%;
+          max-width: 220px;
+          margin: auto; }
+  article .contenedor figure:hover > .capa {
+    opacity: 1;
+    visibility: visible; }
+  article .contenedor figure:hover > .capa h3, article .contenedor figure:hover > .capa .h3 {
+    margin-top: 70px;
+    margin-bottom: 15px; }
+  article .contenedor figure:hover > img {
+    transform: scale(1.3); }
 
 footer {
   background-color: #403d39;
@@ -9439,13 +9461,6 @@ footer {
 
 #pag-postales .seccion-postales h3, #pag-postales .seccion-postales .h3 {
   text-align: center; }
-
-#pag-postales .seccion-postales .galeria {
-  display: flex;
-  justify-content: space-evenly; }
-  #pag-postales .seccion-postales .galeria img {
-    width: 300px;
-    margin: 10px; }
 
 .titulo-sin-margin {
   margin: 0px; }

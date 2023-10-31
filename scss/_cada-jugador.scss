@@ -1,0 +1,40 @@
+#pag-cada-jugador {
+    display: flex;
+.social_jugadorxs{
+    margin-top: 50px;
+    .carousel-item{
+        width: 50vw;
+        height: 80vh;
+    }
+}
+    .informacion_jugadorxs {
+        margin-left: 50px;
+        margin-top: 50px;
+        h2{
+            text-align: center;
+        }
+        .informacion_jugadorxs__titulos{
+            margin-top: 20px;
+        }
+        .informacion_jugadorxs_grupo {
+            padding: 20px;
+            border-bottom: 3px solid #000;
+            .informacion_jugadorxs__label {
+                color: darkgrey;
+                font-size: 13px;
+                line-height: 1.23;
+            }
+
+            .informacion_jugadorxs__input {
+                font-size: 33px;
+                line-height: 33px;
+                letter-spacing: .33px;
+                margin-bottom: 10px;
+                a{
+                    text-decoration: none;
+                    color: #000;
+                }
+            }
+        }
+    }
+}

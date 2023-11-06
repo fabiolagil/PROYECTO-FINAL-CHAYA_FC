@@ -1,0 +1,15 @@
+#pag-cuerpo-tecnico{
+    .orden-cuerpo-tecnico{
+        display: flex;
+        margin: 20px;
+        justify-content: space-evenly;
+        a{
+            text-decoration: none;
+         
+        }
+    }
+    .card:hover{
+        box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.3);
+    }
+
+    }

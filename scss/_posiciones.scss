@@ -27,23 +27,14 @@
         }
     }
 
-    .zonas {
-        h2 {
-            padding-left: 30px;
-            background-color: #403d39;;
-            color: white;
-            margin: 0;
-        }
-
-        .vs {
-            width: 570px;
-        }
-
-        .zona {
-            margin-bottom: 30px;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
+   .orden-2{
+    display: flex;
+    justify-content: space-evenly;
+    .equipos{
+        margin: 20px 20px;
+        h2{
+            text-align: center;
         }
     }
+   }
 }

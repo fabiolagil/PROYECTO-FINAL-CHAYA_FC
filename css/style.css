@@ -9479,20 +9479,13 @@ footer {
   #pag-posiciones .torneos ul li a:hover {
     color: hotpink; }
 
-#pag-posiciones .zonas h2, #pag-posiciones .zonas .h2 {
-  padding-left: 30px;
-  background-color: #403d39;
-  color: white;
-  margin: 0; }
-
-#pag-posiciones .zonas .vs {
-  width: 570px; }
-
-#pag-posiciones .zonas .zona {
-  margin-bottom: 30px;
+#pag-posiciones .orden-2 {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around; }
+  justify-content: space-evenly; }
+  #pag-posiciones .orden-2 .equipos {
+    margin: 20px 20px; }
+    #pag-posiciones .orden-2 .equipos h2, #pag-posiciones .orden-2 .equipos .h2 {
+      text-align: center; }
 
 #pag-jugadorxs .jugadorxs ul {
   display: flex;
@@ -9655,8 +9648,8 @@ footer {
   #pag-cada-jugador .social_jugadorxs {
     margin-top: 50px; }
     #pag-cada-jugador .social_jugadorxs .carousel-item {
-      width: 50vw;
-      height: 80vh; }
+      width: 500px;
+      height: 500px; }
   #pag-cada-jugador .informacion_jugadorxs {
     margin-left: 50px;
     margin-top: 50px; }
@@ -9679,3 +9672,13 @@ footer {
         #pag-cada-jugador .informacion_jugadorxs .informacion_jugadorxs_grupo .informacion_jugadorxs__input a {
           text-decoration: none;
           color: #000; }
+
+#pag-cuerpo-tecnico .orden-cuerpo-tecnico {
+  display: flex;
+  margin: 20px;
+  justify-content: space-evenly; }
+  #pag-cuerpo-tecnico .orden-cuerpo-tecnico a {
+    text-decoration: none; }
+
+#pag-cuerpo-tecnico .card:hover {
+  box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.3); }

@@ -15,16 +15,21 @@
         margin: 10px 10px;
         display: flex;
         justify-content: space-around;
+        flex-direction: column;
+        padding: 10px 10px;
+    }
+
+    article {
+        flex-direction: column;
     }
 
     .sponsors {
-        .container-sponsors1 {
-            .row {
-                img {
-                    width: 35px;
-                }
-            }
+        .sponsors_img {
+            width: 30px;
+            height: 30px;
+            margin: 10px 5px;
         }
+
     }
 
     footer {
@@ -84,27 +89,76 @@
     }
 
     #pag-posiciones {
-        .zonas {
-            .vs {
-                width: $tamaño1;
+        main {
+            .orden-2 {
+                flex-direction: column;
 
+                .equipos {
+                    margin: 20px 0px;
+
+                    img {
+                        width: 100vw;
+                    }
+                }
             }
         }
     }
-    #pag-horarios{
-        h1{
+
+    #pag-horarios {
+        h1 {
             margin: 0;
         }
-        main{
-            .horarios{
-h2{
-    background-color: #403d39 ;
-    color: white;
-}
-            .partidos{
-                flex-direction: column;
+
+        main {
+            .horarios {
+                h2 {
+                    background-color: #403d39;
+                    color: white;
+                }
+
+                .partidos {
+                    flex-direction: column;
+                }
             }
         }
+    }
+
+    #pag-cuerpo-tecnico {
+        .orden-cuerpo-tecnico {
+            flex-direction: column;
+            align-items: center;
+
+            .card {
+                margin: 10px;
+            }
+        }
+    }
+
+    #pag-sobre-el-club {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #pag-cada-jugador {
+        flex-direction: column;
+        align-items: center;
+
+        #carouselExample {
+            width: 100vw;
+        }
+
+        .informacion_jugadorxs {
+
+            .informacion_jugadorxs__titulos {
+                video {
+                    width: 100vw;
+                }
+            }
+        }
+    }
+    #pag-productos__buzo{
+        section{
+            flex-direction: column;
         }
     }
 }

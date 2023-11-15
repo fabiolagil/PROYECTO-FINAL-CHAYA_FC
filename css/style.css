@@ -9533,9 +9533,15 @@ footer {
   .articulos-centro {
     margin: 10px 10px;
     display: flex;
-    justify-content: space-around; }
-  .sponsors .container-sponsors1 .row img {
-    width: 35px; }
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px 10px; }
+  article {
+    flex-direction: column; }
+  .sponsors .sponsors_img {
+    width: 30px;
+    height: 30px;
+    margin: 10px 5px; }
   footer {
     justify-content: center; }
     footer .footer-links ul {
@@ -9559,14 +9565,35 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center; }
-  #pag-posiciones .zonas .vs {
-    width: 300px; }
+  #pag-posiciones main .orden-2 {
+    flex-direction: column; }
+    #pag-posiciones main .orden-2 .equipos {
+      margin: 20px 0px; }
+      #pag-posiciones main .orden-2 .equipos img {
+        width: 100vw; }
   #pag-horarios h1, #pag-horarios .h1 {
     margin: 0; }
   #pag-horarios main .horarios h2, #pag-horarios main .horarios .h2 {
     background-color: #403d39;
     color: white; }
   #pag-horarios main .horarios .partidos {
+    flex-direction: column; }
+  #pag-cuerpo-tecnico .orden-cuerpo-tecnico {
+    flex-direction: column;
+    align-items: center; }
+    #pag-cuerpo-tecnico .orden-cuerpo-tecnico .card {
+      margin: 10px; }
+  #pag-sobre-el-club {
+    flex-direction: column;
+    align-items: center; }
+  #pag-cada-jugador {
+    flex-direction: column;
+    align-items: center; }
+    #pag-cada-jugador #carouselExample {
+      width: 100vw; }
+    #pag-cada-jugador .informacion_jugadorxs .informacion_jugadorxs__titulos video {
+      width: 100vw; }
+  #pag-productos__buzo section {
     flex-direction: column; } }
 
 #pag-horarios main .horarios .partidos {
@@ -9651,8 +9678,7 @@ footer {
       width: 500px;
       height: 500px; }
   #pag-cada-jugador .informacion_jugadorxs {
-    margin-left: 50px;
-    margin-top: 50px; }
+    margin: 50px; }
     #pag-cada-jugador .informacion_jugadorxs h2, #pag-cada-jugador .informacion_jugadorxs .h2 {
       text-align: center; }
     #pag-cada-jugador .informacion_jugadorxs .informacion_jugadorxs__titulos {
